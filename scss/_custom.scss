@@ -2,11 +2,12 @@
 
 //insérer les couleurs ici
 
-$primary://la couleur ici;
-$secondary: //lacouleur ici
-$dark
-$bg-dark
-$font-family-sans-serif: "montserrat", "sans-serif";
+$primary: #4B5943;
+$secondary: #8FB43A;
+$dark : #B7CE66;
+$bg-dark : #DCDFDA;
+$font-family-sans-serif: "montserrat", sans-serif !default;
+$font-family-serif :"Hind Madurai", serif !default;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
