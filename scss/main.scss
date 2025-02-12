@@ -33,6 +33,9 @@ button {
     color: white;
     cursor: pointer;
 }
+button:hover {
+    background-color:$secondary;
+}
 
 
 .presentation img {
@@ -45,7 +48,7 @@ button {
 .form-container {
     max-width: 400px;
     margin: 50px auto;
-    background: white;
+    background: $bg-dark;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
